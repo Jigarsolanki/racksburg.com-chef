@@ -2,11 +2,6 @@
   "name": "wp_web",
   "json_class": "Chef::Role",
   "chef_type": "role",
-  "mysql": {
-    "server_root_password": "iloverandompasswordsbutthiswilldo",
-    "server_repl_password": "iloverandompasswordsbutthiswilldo",
-    "server_debian_password": "iloverandompasswordsbutthiswilldo"
-  },
   "run_list": [
     "recipe[apt]",
     "recipe[wpweb]"
