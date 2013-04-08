@@ -1,0 +1,11 @@
+{
+  "ipaddress": "166.78.149.50",
+  "name": "166.78.149.50",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "run_list": [
+    "role[wp_web]"
+  ]
+}
